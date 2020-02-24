@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95DCC1FE240366770052380B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCC1FD240366770052380B /* AppDelegate.swift */; };
+		95DCC200240366770052380B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCC1FF240366770052380B /* SceneDelegate.swift */; };
+		95DCC203240366780052380B /* StudySmart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95DCC201240366780052380B /* StudySmart.xcdatamodeld */; };
+		95DCC205240366780052380B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCC204240366780052380B /* ContentView.swift */; };
+		95DCC207240366780052380B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DCC206240366780052380B /* Assets.xcassets */; };
+		95DCC20A240366780052380B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DCC209240366780052380B /* Preview Assets.xcassets */; };
+		95DCC20D240366780052380B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DCC20B240366780052380B /* LaunchScreen.storyboard */; };
+		95DCC218240366780052380B /* StudySmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCC217240366780052380B /* StudySmartTests.swift */; };
+		95DCC223240366780052380B /* StudySmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCC222240366780052380B /* StudySmartUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95DCC214240366780052380B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95DCC1F2240366770052380B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95DCC1F9240366770052380B;
+			remoteInfo = StudySmart;
+		};
+		95DCC21F240366780052380B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95DCC1F2240366770052380B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95DCC1F9240366770052380B;
+			remoteInfo = StudySmart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95DCC1FA240366770052380B /* StudySmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DCC1FD240366770052380B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95DCC1FF240366770052380B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95DCC202240366780052380B /* StudySmart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudySmart.xcdatamodel; sourceTree = "<group>"; };
+		95DCC204240366780052380B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		95DCC206240366780052380B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95DCC209240366780052380B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95DCC20C240366780052380B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95DCC20E240366780052380B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95DCC213240366780052380B /* StudySmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudySmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DCC217240366780052380B /* StudySmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySmartTests.swift; sourceTree = "<group>"; };
+		95DCC219240366780052380B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95DCC21E240366780052380B /* StudySmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudySmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DCC222240366780052380B /* StudySmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySmartUITests.swift; sourceTree = "<group>"; };
+		95DCC224240366780052380B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95DCC1F7240366770052380B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DCC210240366780052380B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DCC21B240366780052380B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95DCC1F1240366770052380B = {
+			isa = PBXGroup;
+			children = (
+				95DCC1FC240366770052380B /* StudySmart */,
+				95DCC216240366780052380B /* StudySmartTests */,
+				95DCC221240366780052380B /* StudySmartUITests */,
+				95DCC1FB240366770052380B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95DCC1FB240366770052380B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95DCC1FA240366770052380B /* StudySmart.app */,
+				95DCC213240366780052380B /* StudySmartTests.xctest */,
+				95DCC21E240366780052380B /* StudySmartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95DCC1FC240366770052380B /* StudySmart */ = {
+			isa = PBXGroup;
+			children = (
+				95DCC1FD240366770052380B /* AppDelegate.swift */,
+				95DCC1FF240366770052380B /* SceneDelegate.swift */,
+				95DCC204240366780052380B /* ContentView.swift */,
+				95DCC206240366780052380B /* Assets.xcassets */,
+				95DCC20B240366780052380B /* LaunchScreen.storyboard */,
+				95DCC20E240366780052380B /* Info.plist */,
+				95DCC201240366780052380B /* StudySmart.xcdatamodeld */,
+				95DCC208240366780052380B /* Preview Content */,
+			);
+			path = StudySmart;
+			sourceTree = "<group>";
+		};
+		95DCC208240366780052380B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				95DCC209240366780052380B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95DCC216240366780052380B /* StudySmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				95DCC217240366780052380B /* StudySmartTests.swift */,
+				95DCC219240366780052380B /* Info.plist */,
+			);
+			path = StudySmartTests;
+			sourceTree = "<group>";
+		};
+		95DCC221240366780052380B /* StudySmartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95DCC222240366780052380B /* StudySmartUITests.swift */,
+				95DCC224240366780052380B /* Info.plist */,
+			);
+			path = StudySmartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95DCC1F9240366770052380B /* StudySmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DCC227240366780052380B /* Build configuration list for PBXNativeTarget "StudySmart" */;
+			buildPhases = (
+				95DCC1F6240366770052380B /* Sources */,
+				95DCC1F7240366770052380B /* Frameworks */,
+				95DCC1F8240366770052380B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudySmart;
+			productName = StudySmart;
+			productReference = 95DCC1FA240366770052380B /* StudySmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95DCC212240366780052380B /* StudySmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DCC22A240366780052380B /* Build configuration list for PBXNativeTarget "StudySmartTests" */;
+			buildPhases = (
+				95DCC20F240366780052380B /* Sources */,
+				95DCC210240366780052380B /* Frameworks */,
+				95DCC211240366780052380B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95DCC215240366780052380B /* PBXTargetDependency */,
+			);
+			name = StudySmartTests;
+			productName = StudySmartTests;
+			productReference = 95DCC213240366780052380B /* StudySmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95DCC21D240366780052380B /* StudySmartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DCC22D240366780052380B /* Build configuration list for PBXNativeTarget "StudySmartUITests" */;
+			buildPhases = (
+				95DCC21A240366780052380B /* Sources */,
+				95DCC21B240366780052380B /* Frameworks */,
+				95DCC21C240366780052380B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95DCC220240366780052380B /* PBXTargetDependency */,
+			);
+			name = StudySmartUITests;
+			productName = StudySmartUITests;
+			productReference = 95DCC21E240366780052380B /* StudySmartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95DCC1F2240366770052380B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Dennis Lim";
+				TargetAttributes = {
+					95DCC1F9240366770052380B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					95DCC212240366780052380B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 95DCC1F9240366770052380B;
+					};
+					95DCC21D240366780052380B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 95DCC1F9240366770052380B;
+					};
+				};
+			};
+			buildConfigurationList = 95DCC1F5240366770052380B /* Build configuration list for PBXProject "StudySmart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95DCC1F1240366770052380B;
+			productRefGroup = 95DCC1FB240366770052380B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95DCC1F9240366770052380B /* StudySmart */,
+				95DCC212240366780052380B /* StudySmartTests */,
+				95DCC21D240366780052380B /* StudySmartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95DCC1F8240366770052380B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DCC20D240366780052380B /* LaunchScreen.storyboard in Resources */,
+				95DCC20A240366780052380B /* Preview Assets.xcassets in Resources */,
+				95DCC207240366780052380B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DCC211240366780052380B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DCC21C240366780052380B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95DCC1F6240366770052380B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DCC203240366780052380B /* StudySmart.xcdatamodeld in Sources */,
+				95DCC1FE240366770052380B /* AppDelegate.swift in Sources */,
+				95DCC205240366780052380B /* ContentView.swift in Sources */,
+				95DCC200240366770052380B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DCC20F240366780052380B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DCC218240366780052380B /* StudySmartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95DCC21A240366780052380B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DCC223240366780052380B /* StudySmartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95DCC215240366780052380B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95DCC1F9240366770052380B /* StudySmart */;
+			targetProxy = 95DCC214240366780052380B /* PBXContainerItemProxy */;
+		};
+		95DCC220240366780052380B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95DCC1F9240366770052380B /* StudySmart */;
+			targetProxy = 95DCC21F240366780052380B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95DCC20B240366780052380B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DCC20C240366780052380B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95DCC225240366780052380B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95DCC226240366780052380B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95DCC228240366780052380B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"StudySmart/Preview Content\"";
+				DEVELOPMENT_TEAM = K6ZYSM5DM6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StudySmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennischendalim.StudySmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95DCC229240366780052380B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"StudySmart/Preview Content\"";
+				DEVELOPMENT_TEAM = K6ZYSM5DM6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StudySmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennischendalim.StudySmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95DCC22B240366780052380B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6ZYSM5DM6;
+				INFOPLIST_FILE = StudySmartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennischendalim.StudySmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudySmart.app/StudySmart";
+			};
+			name = Debug;
+		};
+		95DCC22C240366780052380B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6ZYSM5DM6;
+				INFOPLIST_FILE = StudySmartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennischendalim.StudySmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StudySmart.app/StudySmart";
+			};
+			name = Release;
+		};
+		95DCC22E240366780052380B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6ZYSM5DM6;
+				INFOPLIST_FILE = StudySmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennischendalim.StudySmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudySmart;
+			};
+			name = Debug;
+		};
+		95DCC22F240366780052380B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6ZYSM5DM6;
+				INFOPLIST_FILE = StudySmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennischendalim.StudySmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StudySmart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95DCC1F5240366770052380B /* Build configuration list for PBXProject "StudySmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DCC225240366780052380B /* Debug */,
+				95DCC226240366780052380B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95DCC227240366780052380B /* Build configuration list for PBXNativeTarget "StudySmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DCC228240366780052380B /* Debug */,
+				95DCC229240366780052380B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95DCC22A240366780052380B /* Build configuration list for PBXNativeTarget "StudySmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DCC22B240366780052380B /* Debug */,
+				95DCC22C240366780052380B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95DCC22D240366780052380B /* Build configuration list for PBXNativeTarget "StudySmartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DCC22E240366780052380B /* Debug */,
+				95DCC22F240366780052380B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95DCC201240366780052380B /* StudySmart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95DCC202240366780052380B /* StudySmart.xcdatamodel */,
+			);
+			currentVersion = 95DCC202240366780052380B /* StudySmart.xcdatamodel */;
+			path = StudySmart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95DCC1F2240366770052380B /* Project object */;
+}
